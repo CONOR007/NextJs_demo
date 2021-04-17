@@ -2580,25 +2580,6 @@
     "ansi-styles" "^4.1.0"
     "supports-color" "^7.1.0"
 
-"chokidar@^2.1.8", "chokidar@2.1.8":
-  "integrity" "sha1-gEs6e2qZNYw8XGHnHYco8EHP+Rc="
-  "resolved" "https://registry.npm.taobao.org/chokidar/download/chokidar-2.1.8.tgz?cache=0&sync_timestamp=1587911257758&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchokidar%2Fdownload%2Fchokidar-2.1.8.tgz"
-  "version" "2.1.8"
-  dependencies:
-    "anymatch" "^2.0.0"
-    "async-each" "^1.0.1"
-    "braces" "^2.3.2"
-    "glob-parent" "^3.1.0"
-    "inherits" "^2.0.3"
-    "is-binary-path" "^1.0.0"
-    "is-glob" "^4.0.0"
-    "normalize-path" "^3.0.0"
-    "path-is-absolute" "^1.0.0"
-    "readdirp" "^2.2.1"
-    "upath" "^1.1.1"
-  optionalDependencies:
-    "fsevents" "^1.2.7"
-
 "chokidar@^3.2.2":
   "integrity" "sha1-7pznu+vSt59J8wR5nVRo4x4U5oo="
   "resolved" "https://registry.npm.taobao.org/chokidar/download/chokidar-3.5.1.tgz"
@@ -2642,6 +2623,25 @@
     "is-glob" "~4.0.1"
     "normalize-path" "~3.0.0"
     "readdirp" "~3.4.0"
+
+"chokidar@2.1.8":
+  "integrity" "sha1-gEs6e2qZNYw8XGHnHYco8EHP+Rc="
+  "resolved" "https://registry.npm.taobao.org/chokidar/download/chokidar-2.1.8.tgz?cache=0&sync_timestamp=1587911257758&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchokidar%2Fdownload%2Fchokidar-2.1.8.tgz"
+  "version" "2.1.8"
+  dependencies:
+    "anymatch" "^2.0.0"
+    "async-each" "^1.0.1"
+    "braces" "^2.3.2"
+    "glob-parent" "^3.1.0"
+    "inherits" "^2.0.3"
+    "is-binary-path" "^1.0.0"
+    "is-glob" "^4.0.0"
+    "normalize-path" "^3.0.0"
+    "path-is-absolute" "^1.0.0"
+    "readdirp" "^2.2.1"
+    "upath" "^1.1.1"
+  optionalDependencies:
+    "fsevents" "^1.2.7"
 
 "chownr@^1.1.1", "chownr@^1.1.2":
   "integrity" "sha1-b8nXtC0ypYNZYzdmbn0ICE2izGs="
@@ -2900,6 +2900,14 @@
   "integrity" "sha1-tf1UIgqivFq1eqtxQMlAdUUDwac="
   "resolved" "https://registry.npm.taobao.org/core-util-is/download/core-util-is-1.0.2.tgz"
   "version" "1.0.2"
+
+"cors@^2.8.5":
+  "integrity" "sha1-6sEdpRWS3Ya58G9uesKTs9+HXSk="
+  "resolved" "https://registry.npm.taobao.org/cors/download/cors-2.8.5.tgz"
+  "version" "2.8.5"
+  dependencies:
+    "object-assign" "^4"
+    "vary" "^1"
 
 "cosmiconfig@^5.0.0":
   "integrity" "sha1-BA9yaAnFked6F8CjYmykW08Wixo="
@@ -3551,6 +3559,11 @@
   dependencies:
     "esrecurse" "^4.1.0"
     "estraverse" "^4.1.1"
+
+"esm@^3.2.25":
+  "integrity" "sha1-NCwYwp1WFXaIulzjH4Qx+7eVzBA="
+  "resolved" "https://registry.npm.taobao.org/esm/download/esm-3.2.25.tgz?cache=0&sync_timestamp=1589809087071&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fesm%2Fdownload%2Fesm-3.2.25.tgz"
+  "version" "3.2.25"
 
 "esprima@^4.0.0":
   "integrity" "sha1-E7BM2z5sXRnfkatph6hpVhmwqnE="
@@ -5212,7 +5225,7 @@
   dependencies:
     "boolbase" "~1.0.0"
 
-"object-assign@^4.0.1", "object-assign@^4.1.0", "object-assign@^4.1.1":
+"object-assign@^4", "object-assign@^4.0.1", "object-assign@^4.1.0", "object-assign@^4.1.1":
   "integrity" "sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM="
   "resolved" "https://registry.npm.taobao.org/object-assign/download/object-assign-4.1.1.tgz"
   "version" "4.1.1"
@@ -7335,7 +7348,7 @@
   "resolved" "https://registry.npm.taobao.org/utils-merge/download/utils-merge-1.0.1.tgz"
   "version" "1.0.1"
 
-"vary@~1.1.2":
+"vary@^1", "vary@~1.1.2":
   "integrity" "sha1-IpnwLG3tMNSllhsLn3RSShj2NPw="
   "resolved" "https://registry.npm.taobao.org/vary/download/vary-1.1.2.tgz"
   "version" "1.1.2"
@@ -7356,13 +7369,6 @@
   "version" "4.0.3"
   dependencies:
     "loose-envify" "^1.0.0"
-
-"watchpack-chokidar2@^2.0.0":
-  "integrity" "sha1-mUihhmy71suCTeoTp+1pH2yN3/A="
-  "resolved" "https://registry.npm.taobao.org/watchpack-chokidar2/download/watchpack-chokidar2-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "chokidar" "^2.1.8"
 
 "watchpack@^1.6.1":
   "integrity" "sha1-wC5NTUmRPD5+EiwzJTZa+dMx6ao="
